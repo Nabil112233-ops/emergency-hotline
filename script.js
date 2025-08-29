@@ -65,7 +65,7 @@ let coCount = 0;
 
 for(const copyButton of copyButtons){
     copyButton.addEventListener('click', function() {
-        alert(`Copy ${'serviceName'}`)
+        alert(`Copy ${serviceName}`)
         coCount++
         copyCount.innerText = coCount;
     })
